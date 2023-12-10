@@ -24,7 +24,7 @@ def handle_input(sock):
 			print(message)
 		except:
 			print('Error. Disconnecting...')
-			threading.Threadd.join(thread)
+			threading.Thread.join(thread)
 			
 # handle output to server 
 # function to send messages to the server 
