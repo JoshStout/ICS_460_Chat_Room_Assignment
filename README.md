@@ -12,12 +12,12 @@ The directory, named assignment_2, is composed of four files: the client program
 
 ### Running The Server Script
 To run the server application, enter the following in the linux terminal inside the assignment_2 directory:
->> python3 chatserver.py <port number>
+>> python3 chatserver.py [port number]
 
 
 ### Running The Client Script
 To run the client application, enter the following in the linux terminal inside the assignment_2 directory:
->> python3 chatclient.py <server name> <server port> <username>
+>> python3 chatclient.py [server name] [server port] [username]
 
 
 ## Instructions To Use The Application
