@@ -234,10 +234,10 @@ def main():
 	# Allow address reuse for crashes 
 	server_socket.setsockopt(SOL_SOCKET, SO_REUSEADDR, 1)
     
-    # Bind to an address and port
+    	# Bind to an address and port
 	server_socket.bind(('', PORT))
 
-    # Listen for incoming connections
+    	# Listen for incoming connections
 	server_socket.listen()
 	print('Waiting for users to connect...')
 	
